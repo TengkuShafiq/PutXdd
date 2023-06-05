@@ -18,13 +18,13 @@ let info = `
 ┗$ Rm1/grup (1 minggu)
 
 ┏⫹⫺ *ɴᴏʀᴍᴀʟ* 
-┗$ Rm5/grup (1 bulan)
+┗$ Rm5/group (1 bulan)
 
 ┏⫹⫺ *sᴛᴀɴᴅᴀʀ* 
-┗$ Rm15/grup (2 bulan)
+┗$ Rm15/group (2 bulan)
 
 ┏⫹⫺ *ᴘʀᴏ* 
-┗$ Rm20/grup (3 bulan)
+┗$ Rm20/group (3 bulan)
 
 ──···────────────────···──
 
@@ -43,15 +43,15 @@ let info = `
 
 
 *✃ ᴘᴀʏᴍᴇɴᴛ*
-• *Pulsa Maxis:* [60147366955]
-• *eWallet:* [601169466091]
+• *Topup Digi:* [60149268602]
+• *eWallet:* [60194130253]
 
 –––––– *ᴋᴇʙɪᴊᴀᴋᴀɴ* ––––––
-🗣️: Kak, Kok harganya mahal banget?
-💬: Mau tawar menawar? boleh, silahkan chat owner aja.. max tawar Rm5
+🗣️: Bang, Kenapa harganya mahal sangat?
+💬: Nak tawar menawar? boleh, silahkan chat owner nya.. max tawar Rm5
 
-🗣️: Scam ga nih kak?
-💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
+🗣️: Scam ke nih ?
+💬: Semestinya tidak, Owner 100% Tepati janji #STAYHALAL
 
 ▌│█║▌║▌║║▌║▌║█│▌
 `
