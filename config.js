@@ -21,9 +21,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Malaysia').format('HH')
+    let wibm = moment.tz('Asia/Malaysia').format('mm')
+    let wibs = moment.tz('Asia/Malaysia').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -51,12 +51,12 @@ global.sdc = " "
 global.snh = 'https://nhentai.net/g/365296/'
 
 /*============== PAYMENT ==============*/
-global.pdana = '085334930628'
-global.povo = '085712420674'
-global.pgopay = '085712420674'
-global.ppulsa = '085334930628'
-global.ppulsa2 = '081336990781'
-global.psaweria = '-'
+global.Duitnow = '86206079582806'
+global.Bigpay = '86206079582806'
+global.TouchNGo = '0194130253'
+global.Topup = '601137763520'
+global.Topup = '60149268602'
+global.CimbBank = '-'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '601154263559'
@@ -68,7 +68,7 @@ global.nameown = 'Tengku Shafiq'
 /*============== STAFF ==============*/
 global.owner = [
   ['60193830253'],
-  ['60193830253', '𝕻𝖚𝖙 𝕯𝖊𝖛', true]
+  ['60193830253', '𝕋𝕖𝕟𝕘𝕜𝕦 𝕊𝕙𝕒𝕗𝕚𝕢 𝔻𝕖𝕧', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -113,12 +113,12 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 𝕻𝖚𝖙 𝕯𝖊𝖛 あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝕻𝖚𝖙 𝕯𝖊𝖛˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ 𝕻𝖚𝖙 𝕯𝖊𝖛'
+global.wm = '                「 𝕋𝕖𝕟𝕘𝕜𝕦 𝕊𝕙𝕒𝕗𝕚𝕢 𝔻𝕖𝕧 あ⁩ 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝕋𝕖𝕟𝕘𝕜𝕦 𝕊𝕙𝕒𝕗𝕚𝕢 𝔻𝕖𝕧𝖛˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝕋𝕖𝕟𝕘𝕜𝕦 𝕊𝕙𝕒𝕗𝕚𝕢 𝔻𝕖𝕧'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '🌱 ┊ 𝕻𝖚𝖙 𝕯𝖊𝖛 Whatsapp ʙᴏᴛ'
+global.titlebot = '🌱 ┊ 𝕋𝕖𝕟𝕘𝕜𝕦 𝕊𝕙𝕒𝕗𝕚𝕢 𝔻𝕖𝕧 Whatsapp ʙᴏᴛ'
 global.author = global.wm
 
 
