@@ -206,7 +206,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	rows: [
 	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
 	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
+	    {title: `💹 ${pmenus} DONATION`, rowId: ".donation", description: 'Support BOT agar lebih fast respon'},
 	]
 	},{
 	title: `${htki} MENU ${htka}`,
@@ -243,7 +243,7 @@ let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┏─── ⳹°❀❬ Alpha Leader ❭❀°
 │✎ _Aktif Selama:_ ${mpt}
-│✎ _Jam:_ ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+│✎ _Jam:_ ${moment.tz('Asia/Malaysia').format('HH')} H  ${moment.tz('Asia/Malaysia').format('mm')} M  ${moment.tz('Asia/Malaysia').format('ss')} S
 │✎ _User:_ ${Object.keys(global.db.data.users).length}
 │✎ _Level:_ ${usrs.level}
 ┗──────┈ ⳹ ❋ཻུ۪۪⸙
@@ -261,12 +261,12 @@ const listMessage = {
     }
   	
  /**************************** TIME *********************/
- let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
-    let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-    let wita = moment.tz('Asia/Makassar').format('HH:mm:ss')
+ let wib = moment.tz('Asia/Malaysia').format('HH:mm:ss')
+    let wibh = moment.tz('Asia/Malaysia').format('HH')
+    let wibm = moment.tz('Asia/Malaysia').format('mm')
+    let wibs = moment.tz('Asia/Malaysia').format('ss')
+    let wit = moment.tz('Asia/Malaysia').format('HH:mm:ss')
+    let wita = moment.tz('Asia/Malaysia').format('HH:mm:ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
  
  let mode = global.opts['self'] ? 'Private' : 'Publik'
@@ -418,7 +418,7 @@ const listMessage = {
                          }
                         }
                      }
-  let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+  let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '193830253@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
   
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
     
@@ -486,8 +486,8 @@ const listMessage = {
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi',
-                        id: '.donasi'
+                        displayText: 'Donation',
+                        id: '.donation'
                     }
                 },
             ]
