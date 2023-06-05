@@ -61,8 +61,8 @@ global.CimbBank = '-'
 /*============== NOMOR ==============*/
 global.nomorbot = '601154263559'
 global.nomorown = '60193830253'
-global.namebot = 'HOSTING BOT BY TENGKU SHAFIQ'
-global.nameown = 'Tengku Shafiq'
+global.namebot = 'HOSTING BOT BY 𝕋𝕖𝕟𝕘𝕜𝕦 𝕊𝕙𝕒𝕗𝕚𝕢 𝔻𝕖𝕧 '
+global.nameown = '𝕋𝕖𝕟𝕘𝕜𝕦 𝕊𝕙𝕒𝕗𝕚𝕢 𝔻𝕖𝕧'
 
 
 /*============== STAFF ==============*/
