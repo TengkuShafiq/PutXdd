@@ -39,4 +39,9 @@ bot(
 		const res = await getDallEResponse(match)
 		await message.sendFromUrl(res)
 	}
-)
+handler.help = ['darkjokes']
+handler.tags = ['internet']
+handler.command = /^(dragjokes|darkjokes)$/i
+module.exports = handler
+
+
