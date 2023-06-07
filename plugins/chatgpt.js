@@ -39,9 +39,9 @@ bot(
 		const res = await getDallEResponse(match)
 		await message.sendFromUrl(res)
 	}
-handler.help = ['darkjokes']
+handler.help = ['chatgpt']
 handler.tags = ['internet']
-handler.command = /^(dragjokes|darkjokes)$/i
+handler.command = /^(dragchatgpt|chatgpt)$/i
 module.exports = handler
 
 
