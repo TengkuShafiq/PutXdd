@@ -1,5 +1,5 @@
 // MADE BY BOCHILGAMING
-// RECODE BY PUTBOTZ
+// RECODE BY TSBOTZ
 
 import { promises } from 'fs'
 import { join } from 'path'
