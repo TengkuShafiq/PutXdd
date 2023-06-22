@@ -54,7 +54,7 @@ global.snh = 'https://nhentai.net/g/365296/'
 global.Duitnow = '86206079582806'
 global.Bigpay = '86206079582806'
 global.TouchNGo = '0194130253'
-global.U mobile = '601137763520'
+global.Umobile = '601137763520'
 global.Digi = '60149268602'
 global.CimbBank = '-'
 
